@@ -8,7 +8,7 @@
             Padding="30,0"
             Spacing="25">
             <Label
-                 Text="ROLADOR DE DADOS"
+                 Text="DICE ROLLER"
                  FontAttributes="Bold"
                  Margin="0,5,0,0"
                  HorizontalTextAlignment="Center"
@@ -18,8 +18,8 @@
 
 
             <Label
-                x:Name="RandomNumber"
-                Text="6"   
+                x:Name="ResultLabel"
+                Text=""   
                 FontAttributes="Bold"
                 Margin="0,50,0,0"
                 HorizontalTextAlignment="Center"
@@ -49,6 +49,7 @@
                 Clicked="RollBtn_Clicked"                
                 />
 
+            
 
 
         </VerticalStackLayout>
